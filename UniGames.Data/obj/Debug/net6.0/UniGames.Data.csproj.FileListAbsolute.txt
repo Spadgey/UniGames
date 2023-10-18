@@ -1,0 +1,12 @@
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\bin\Debug\net6.0\UniGames.Data.deps.json
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\bin\Debug\net6.0\UniGames.Data.dll
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\bin\Debug\net6.0\UniGames.Data.pdb
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\UniGames.Data.csproj.AssemblyReference.cache
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\UniGames.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\UniGames.Data.AssemblyInfoInputs.cache
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\UniGames.Data.AssemblyInfo.cs
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\UniGames.Data.csproj.CoreCompileInputs.cache
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\UniGames.Data.dll
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\refint\UniGames.Data.dll
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\UniGames.Data.pdb
+C:\Users\s0288786\Documents\GitHub\UniGames\UniGames.Data\obj\Debug\net6.0\ref\UniGames.Data.dll
