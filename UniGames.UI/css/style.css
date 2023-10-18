@@ -1,0 +1,61 @@
+body {
+    font-family: Unidays-Book, sans-serif;
+    background-color: #fbf9f9ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fff;
+    font-family: Unidays-Heavy, sans-serif;
+    color: #000;
+    text-align: center;
+}
+footer {
+    font-family: Unidays-Heavy, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+nav {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+}
+h2 {
+    font-family: Unidays-Heavy, sans-serif;
+}
+a {
+    font-family: Unidays-Heavy, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+.main-content{
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
