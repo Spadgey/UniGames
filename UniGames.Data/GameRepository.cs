@@ -41,6 +41,7 @@ namespace UniGames.Data
                                     games.Add(new Game(title, platform, score));
                                 }
                             }
+                            //hello
                             else
                             {
                                 Console.WriteLine("No data found.");

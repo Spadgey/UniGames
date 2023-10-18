@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj": {}
+    "C:\\Users\\632651\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj": {
+    "C:\\Users\\632651\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj",
+        "projectUniqueName": "C:\\Users\\632651\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj",
         "projectName": "UniGames.Data",
-        "projectPath": "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj",
-        "packagesPath": "C:\\Users\\s0288786\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\obj\\",
+        "projectPath": "C:\\Users\\632651\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj",
+        "packagesPath": "C:\\Users\\632651\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\632651\\Documents\\GitHub\\UniGames\\UniGames.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\s0288786\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\632651\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
