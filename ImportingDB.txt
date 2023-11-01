@@ -1,0 +1,11 @@
+In server managment studio select the databases file, right click - Import Data-Tier Application,
+
+Press Next,
+
+Select the "UniGames.bacpac" file location,
+
+Press Next,
+
+Press Finish,
+
+Wait for it to import the server.
