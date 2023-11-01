@@ -30,7 +30,6 @@ namespace UniGames.Api.Controllers
                     PlatformSystem = platform.PlatformSystem
                 });
             }
-
             return Ok(platformsDTO);
         }
     }

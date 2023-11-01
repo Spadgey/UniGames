@@ -33,7 +33,6 @@ namespace UniGames.Api.Controllers
                     UserId = User.UserId
                 });
             }
-
             return Ok(reviewsDTO);
         }
     }
