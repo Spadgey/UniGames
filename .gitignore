@@ -5,3 +5,6 @@
 .vs/UniGames/FileContentIndex/ad917e9c-c2f5-4e29-9ad9-51755a17ecee.vsidx
 UniGames.Api/obj/Debug/net6.0/UniGames.Api.csproj.AssemblyReference.cache
 .vs/UniGames/FileContentIndex/e5cbe21c-6f84-440e-a766-d4ced1044c91.vsidx
+*.vsidx
+*.cache
+*.vsidx

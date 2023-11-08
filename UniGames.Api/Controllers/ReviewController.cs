@@ -3,6 +3,7 @@ using UniGames.Api.Models.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using UniGames.Api.Models.Domain;
 
 namespace UniGames.Api.Controllers
 {
@@ -29,8 +30,8 @@ namespace UniGames.Api.Controllers
                     ReviewId = review.ReviewId,
                     ReviewBody = review.ReviewBody,
                     ReviewScore = review.ReviewScore,
-                    GameId = Game.GameId,
-                    UserId = User.UserId
+                    GameId = review.GameId,
+                    UserId = review.UserId
                 });
             }
             return Ok(reviewsDTO);
