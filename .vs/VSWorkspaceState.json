@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\UniGames.Api",
+    "\\UniGames.Api\\Controllers",
+    "\\UniGames.Data",
+    "\\UniGames.Data\\Models"
+  ],
+  "SelectedNode": "\\UniGames.Api\\Controllers\\GameController.cs",
+  "PreviewInSolutionExplorer": false
+}
