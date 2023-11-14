@@ -59,3 +59,19 @@ table tr:nth-child(odd) {
     background-color: #fff;
     border: 1px solid #ccc;
 }
+
+#addgamebutton{
+    background-color: gray;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+#addgamebutton:hover{
+    background-color: purple;
+}
+
+#addgamelink{
+    text-decoration: none;
+    width: 100%;
+}

@@ -5,6 +5,7 @@ using UniGames.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using UniGames.Api.Models.DTOs;
 using System.Reflection.Metadata.Ecma335;
+using UniGames.Api.Models.Domain;
 
 // testing a change in Git
 
@@ -36,6 +37,51 @@ namespace UniGames.Api.Controllers
                 });
             }
             return Ok(gamesDTO);
+        }
+
+
+        [HttpPost]
+        [Route("AddGame")]
+        public IActionResult AddGame([FromBody] GameDTO gameDTO) {
+
+        
+
+            if (gameDTO == null)
+            {
+
+                return BadRequest("Invalid Data.");
+
+            }
+
+            var GameDM = new Game
+            {
+
+                GameId = gameDTO.GameId,
+                GameTitle = gameDTO.GameTitle,
+                GameDeveloper = gameDTO.GameDeveloper,
+                GameRelease = gameDTO.GameRelease,
+                PlatformId = gameDTO.PlatformId
+
+            };
+
+           
+
+            dbContext.Game.Add(GameDM); 
+            dbContext.SaveChanges();
+
+            var gamesDTO = new GameDTO {
+
+                GameId = gameDTO.GameId,
+                GameTitle = gameDTO.GameTitle,
+                GameDeveloper = gameDTO.GameDeveloper,
+                GameRelease = gameDTO.GameRelease,
+                PlatformId = gameDTO.PlatformId
+
+
+            };
+
+
+            return CreatedAtAction("AddGame", new { id = gamesDTO.GameId }, gamesDTO);
         }
     }
 }

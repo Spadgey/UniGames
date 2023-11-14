@@ -23,33 +23,45 @@
     </div>
     <div class="main-content">
         <h2>Add A Game</h2>
-        
-        <form type="POST">
-
-            <h3>Game Title</h3>
-            <input type="text" id="gametitle" name="gametitle"/>
+        <form id="addGameForm">
+            <label for="gameTitle">Game Title:</label>
+            <input type="text" id="gameTitle" name="gameTitle" required><br><br>
+    
+            <label for="gameDeveloper">Game Developer:</label>
+            <input type="text" id="gameDeveloper" name="gameDeveloper" required><br><br>
+    
+            <label for="gameRelease">Game Release:</label>
+            <input type="date" id="gameRelease" name="gameRelease" required><br><br>
+    
+            <label for="gamePlatform">Game Platform (Select 1)</label>
+            <br>
+            <input type="radio" id="xboxseriesx" name="gameplatform" value="1">
+            <label for="xboxseriesx">Xbox Series X</label><br>
+            <input type="radio" id="ps5" name="gameplatform" value="2">
+            <label for="ps5">PS5</label><br>
+            <input type="radio" id="OQ2" name="gameplatform" value="3">
+            <label for="OQ2">Oculus Quest 2</label>
+            <input type="radio" id="switch" name="gameplatform" value="4">
+            <label for="switch">Nintendo Switch</label><br>
+            <input type="radio" id="windows" name="gameplatform" value="5">
+            <label for="windows">Windows</label><br>
+            <input type="radio" id="mac" name="gameplatform" value="6">
+            <label for="mac">Mac</label>
+            <input type="radio" id="ps4" name="gameplatform" value="7">
+            <label for="ps4">PS4</label><br>
+            <input type="radio" id="xboxone" name="gameplatform" value="8">
+            <label for="xboxone">Xbox One</label><br>
+            <input type="radio" id="steamdeck" name="gameplatform" value="9">
+            <label for="steamdeck">Steam Deck</label>
+            <input type="radio" id="linux" name="gameplatform" value="10">
+            <label for="linux">Linux</label><br>
+            <input type="radio" id="android" name="gameplatform" value="11">
+            <label for="android">Android</label><br>
+            <input type="radio" id="ios" name="gameplatform" value="12">
+            <label for="ios">IOS</label>
 <br>
-            <h3>Game Developer</h3>
-            <input type="text" id="gamedeveloper" name="gamedeveloper"/>
-            <br>
-            <h3>Game Release</h3>
-            <input type="text" id="gamerelease" name="gamerelease"/>
-            <br>
-            <h3>Platform Type (Click 1)</h3>
-            <input type="checkbox" id="platform" name="platform" value="1"/>
-            <label for="platform">platform1</label><br>
-            <input type="checkbox" id="platform2" name="platform2" value="2"/>
-            <label for="platform2">platform2</label><br>
-            <button type="submit" value="submit">
-            <label for="submit">submit</label>
-
-
-
-
-
+            <input type="submit" onclick="addGame()"value="Submit">
         </form>
-
-
     </div>
     <div class="right-banner">
         <image src="images/spiderman.jpg" alt="Spiderman"></image>

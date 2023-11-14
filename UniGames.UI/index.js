@@ -32,3 +32,31 @@
 
     return row;
   }
+
+  function addGame() {
+    
+    var addGameFormData = {
+
+      gameTitle: document.getElementById('gameTitle').value,
+      gameDev: document.getElementById('gameDeveloper').value,
+      gameRelease: document.getElementById('gameRelease').value,
+      gamePlatform: document.getElementById('gamePlatform').value
+
+
+    }
+  
+    fetch('http://localhost:5116/Game/AddGame', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(addGameFormData)
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Handle the response from the server if needed
+        console.log(data);
+    })
+      .catch(error => console.error('Unable to add game.', error));
+  }
