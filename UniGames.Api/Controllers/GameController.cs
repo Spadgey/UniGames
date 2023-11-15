@@ -24,24 +24,33 @@ namespace UniGames.Api.Controllers
         [HttpGet(Name = "GetGames")]
         public IActionResult GetGames()
         {
-            var gamesDM = dbContext.Game.ToList();
             var gamesDTO = new List<GameDTO>();
-            foreach (var game in gamesDM) 
+
+            try
             {
-                gamesDTO.Add(new GameDTO()
+                var gamesDM = dbContext.Game.ToList();
+                
+                foreach (var game in gamesDM)
                 {
-                    GameId = game.GameId,
-                    GameTitle = game.GameTitle,
-                    GameDeveloper = game.GameDeveloper,
-                    GameRelease = game.GameRelease,
-                });
+                    gamesDTO.Add(new GameDTO()
+                    {
+                        GameId = game.GameId,
+                        GameTitle = game.GameTitle,
+                        GameDeveloper = game.GameDeveloper,
+                        GameRelease = game.GameRelease,
+                    });
+                }
             }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
             return Ok(gamesDTO);
         }
 
 
         [HttpPost]
-        [Route("AddGame")]
         public IActionResult AddGame([FromBody] GameDTO gameDTO) {
 
         
@@ -52,6 +61,7 @@ namespace UniGames.Api.Controllers
                 return BadRequest("Invalid Data.");
 
             }
+
 
             var GameDM = new Game
             {

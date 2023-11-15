@@ -1,8 +1,10 @@
   // Fetch game data from the server
-  fetch('http://localhost:5116/game')
+  fetch('http://localhost:5116/Game')
     .then(response => response.json())
     .then(data => {
       const gameTableBody = document.querySelector('#gameTable tbody');
+
+      if(!gameTableBody){return}
 
       // Loop through the array of games and append them to the table
       data.forEach(game => {
@@ -31,32 +33,4 @@
     row.appendChild(scoreCell);
 
     return row;
-  }
-
-  function addGame() {
-    
-    var addGameFormData = {
-
-      gameTitle: document.getElementById('gameTitle').value,
-      gameDev: document.getElementById('gameDeveloper').value,
-      gameRelease: document.getElementById('gameRelease').value,
-      gamePlatform: document.getElementById('gamePlatform').value
-
-
-    }
-  
-    fetch('http://localhost:5116/Game/AddGame', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(addGameFormData)
-    })
-      .then(response => response.json())
-      .then(data => {
-        // Handle the response from the server if needed
-        console.log(data);
-    })
-      .catch(error => console.error('Unable to add game.', error));
   }
