@@ -5,7 +5,7 @@ namespace UniGames.Data
 {
     public class GameRepository
     {
-        static string connectionString = @"Data Source=.\SQLExpress;Initial Catalog=UniGames;Integrated Security=True;TrustServerCertificate=true";
+        static string connectionString = @"Data Source=THEO\LOCALHOST;Initial Catalog=UniGames;Integrated Security=True;TrustServerCertificate=true";
     
         public List<Game> GetGames()
         {

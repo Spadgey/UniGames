@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj": {}
+    "C:\\Users\\Theo\\Downloads\\UniGames-main\\UniGames-main\\UniGames.Data\\UniGames.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj": {
+    "C:\\Users\\Theo\\Downloads\\UniGames-main\\UniGames-main\\UniGames.Data\\UniGames.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Theo\\Downloads\\UniGames-main\\UniGames-main\\UniGames.Data\\UniGames.Data.csproj",
         "projectName": "UniGames.Data",
-        "projectPath": "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\UniGames.Data.csproj",
-        "packagesPath": "C:\\Users\\s0288786\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s0288786\\Documents\\GitHub\\UniGames\\UniGames.Data\\obj\\",
+        "projectPath": "C:\\Users\\Theo\\Downloads\\UniGames-main\\UniGames-main\\UniGames.Data\\UniGames.Data.csproj",
+        "packagesPath": "C:\\Users\\Theo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Theo\\Downloads\\UniGames-main\\UniGames-main\\UniGames.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\s0288786\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Theo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

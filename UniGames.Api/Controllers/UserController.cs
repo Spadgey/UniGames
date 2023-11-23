@@ -30,9 +30,32 @@ namespace UniGames.Api.Controllers
                     UserLName = user.UserLName
                 });
             }
-
-
             return Ok(usersDTO);
+        }
+        [HttpDelete]
+        [Route("{id:int}")]
+
+        public IActionResult DeleteUser([FromRoute] int id)
+        {
+            var UserDM = dbContext.User.FirstOrDefault(x => x.UserId == id);
+
+            if (UserDM == null)
+            {
+                return NotFound();
+            }
+
+            // Delete author
+            dbContext.User.Remove(UserDM);
+            dbContext.SaveChanges();
+
+            //return deleted author back - map DM to DTO
+            var userDTO = new UserDTO
+            {
+                UserId = UserDM.UserId,
+                UserFName = UserDM.UserFName,
+                UserLName = UserDM.UserLName,
+            };
+            return Ok(userDTO);
         }
     }
 }
