@@ -10,3 +10,9 @@
     font-weight: normal;
     font-style: normal;
 }
+.h1{
+    font-family: 'Unidays-Heavy';
+    src: url('../fonts/P22UndergroundPro-Heavy.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
